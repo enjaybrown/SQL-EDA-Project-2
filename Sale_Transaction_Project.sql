@@ -1,3 +1,25 @@
+/* Sales Transactions Data Exploration
+
+Skills Used: Joins, CTE's, Temp Tables, Windows Functions
+
+*/
+
+/*
+--------------EDA LIST---------------
+	---The Organization is planning to gift the best performing manager who made the best sales and want to know the region which the manager belongs to?
+	----How many times was delivery truck used as the ship mode?
+	----Which Year did the company incurred the least shipping cost?
+	----How many orders were returned, and which product category got rejected the most?
+	---Display the day of the week in which customer segment has the most sales?
+	----What are the aggregate orders made by all the customers?
+	----The Organization is eager to know the customer names and persons born in 2011?
+	----The company intends to discontinue any product that brings in the least profit, you are required to help the organization to determine the product?
+	----What are the top 2 best selling items that the company should keep selling?
+*/
+
+
+
+
 select * from Sales_Trans.dbo.Region_Manager
 select * from Sales_Trans.dbo.Returned_Items
 select * from Sales_Trans.dbo.Sales_Transactions
